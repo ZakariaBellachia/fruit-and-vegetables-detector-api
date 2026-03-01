@@ -27,7 +27,6 @@ You can try the app directly here:
 3. View the **predicted class** and **confidence score** instantly
 
 ---
-
 ## 4️⃣ Example Usage (for developers)
 
 If you want to run locally or integrate the model via Python:
@@ -49,9 +48,9 @@ img_array = np.expand_dims(img_array, axis=0) / 255.0
 pred = model.predict(img_array)
 predicted_class = np.argmax(pred, axis=1)[0]
 
-print(predicted_class)'''
+print(predicted_class)
 
-
+---
 ##5️⃣ Model Details
 
 Architecture: VGG16
@@ -63,7 +62,7 @@ Input size: 224x224
 Dataset: Fruits and Vegetables images (collected from [https://www.kaggle.com/datasets/shadikfaysal/fruit-and-vegetables-ssm/data])
 Note: Some irrelevant classes were removed for clarity
 
-
+---
 ##6️⃣ License
 
 This project is licensed under the Apache License 2.0 – see the LICENSE
