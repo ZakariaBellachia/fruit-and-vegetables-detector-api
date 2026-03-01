@@ -51,7 +51,7 @@ predicted_class = np.argmax(pred, axis=1)[0]
 print(predicted_class)
 ```  
 ---
-##5️⃣ Model Details
+5️⃣ Model Details
 
 Architecture: VGG16
 
@@ -63,7 +63,7 @@ Dataset: Fruits and Vegetables images (collected from [https://www.kaggle.com/da
 Note: Some irrelevant classes were removed for clarity
 
 ---
-##6️⃣ License
+6️⃣ License
 
 This project is licensed under the Apache License 2.0 – see the LICENSE
  file for details.
