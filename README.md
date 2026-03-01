@@ -49,7 +49,7 @@ pred = model.predict(img_array)
 predicted_class = np.argmax(pred, axis=1)[0]
 
 print(predicted_class)
-
+```  
 ---
 ##5️⃣ Model Details
 
