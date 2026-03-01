@@ -51,20 +51,16 @@ predicted_class = np.argmax(pred, axis=1)[0]
 print(predicted_class)
 ```  
 ---
-5️⃣ Model Details
+## 5️⃣ Model Details
+- **Architecture**: VGG16  
+- **Number of classes**: 27 (Apple, Banana, Carrot…)  
+- **Input size**: 224x224  
+- **Dataset**: [Fruits and Vegetables images (Kaggle)](https://www.kaggle.com/datasets/shadikfaysal/fruit-and-vegetables-ssm/data)  
 
-Architecture: VGG16
-
-Number of classes: 27 (Apple, Banana, Carrot…)
-
-Input size: 224x224
-
-Dataset: Fruits and Vegetables images (collected from [https://www.kaggle.com/datasets/shadikfaysal/fruit-and-vegetables-ssm/data])
-Note: Some irrelevant classes were removed for clarity
+> Note: Some irrelevant classes were removed for clarity
 
 ---
-6️⃣ License
 
-This project is licensed under the Apache License 2.0 – see the LICENSE
- file for details.
+## 6️⃣ License
+This project is licensed under the **Apache License 2.0** – see the [LICENSE](LICENSE) file for details.
  
