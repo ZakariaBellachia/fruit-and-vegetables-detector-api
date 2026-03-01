@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+.DS_Store
+# Ignore the TFLite model file
+model/
+test/
+train/
+validation/
+ipynb_checkpoints/

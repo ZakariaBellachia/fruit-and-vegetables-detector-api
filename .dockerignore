@@ -1,0 +1,10 @@
+# .dockerignore
+__pycache__/
+*.pyc
+test/
+train/
+validation/
+notebook/
+convert.py
+20260224_*.jpg
+*.log

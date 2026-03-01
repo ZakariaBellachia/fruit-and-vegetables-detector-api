@@ -1,0 +1,5 @@
+numpy
+streamlit
+pillow
+python-multipart
+requests
